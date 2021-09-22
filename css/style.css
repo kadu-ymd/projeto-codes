@@ -10,3 +10,7 @@ h1 {
 .icon{
     height: 200px;
 }
+
+.arrow_left{
+    position: absolute;
+}
