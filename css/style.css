@@ -15,9 +15,17 @@ h1 {
 }
 
 .icon{
-    height: 100px;
+    height: 6rem;
 }
 
-.arrow_left{
+.icon_left{
     position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.icon_right{
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
