@@ -1,0 +1,25 @@
+.black_stroke_box{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+
+.black_stroke_box>.coluna>.linha>p{
+    margin: 0.5rem;
+}
+
+linha>p{
+    
+}
+
+.dia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.icon2{
+    height: 1.5rem;
+    padding: 0.5rem 0rem;
+}
