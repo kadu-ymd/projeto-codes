@@ -1,6 +1,6 @@
 .outside-box {
     border: 1px solid black;
-    margin: 10rem 0.8rem 5rem 0.8rem;
+    margin: 15rem 0.8rem 5rem 0.8rem;
     border-radius: 0.5rem;
 }
 
@@ -49,4 +49,11 @@ li {
 .dias-do-mes > li:hover {
     background-color: aliceblue;
     border-radius: 30%;
+}
+
+.plus {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2em;
 }
