@@ -1,6 +1,9 @@
 .foto{
-    justify-content: center;
+    justify-self: center;
     border-radius: 100%;
     border-width: 0.1rem;
-    border
+    border-color: black;
+    background-color: blue;
+    width: 4rem;
+    height: 4rem;
 }
