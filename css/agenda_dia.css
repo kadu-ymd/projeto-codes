@@ -1,7 +1,7 @@
 .black_stroke_box {
     border: 2px solid black;
     border-radius: 0.5rem;
-    margin: 10rem 0.8rem 5rem 0.8rem;
+    margin: 2rem 0.8rem 2rem 0.8rem;
 }
 
 .black_stroke_box > .coluna > .linha > p {
