@@ -1,7 +1,7 @@
 .black_stroke_box {
     border: 2px solid black;
     border-radius: 0.5rem;
-    margin: 10rem 0.8rem 5rem 0.8rem;
+    margin: 2rem 0.8rem 2rem 0.8rem;
 }
 
 .black_stroke_box > .coluna > .linha > p {
@@ -12,7 +12,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 2px solid black;
 }
 
 .dia > p {
@@ -20,6 +19,6 @@
 }
 
 .horario-box {
-    justify-content: space-between;
+    justify-content: center;
     padding: 0rem 0.2rem;
 }
