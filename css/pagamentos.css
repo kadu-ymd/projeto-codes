@@ -1,0 +1,45 @@
+.valor{
+    font-size: 170%;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.item{
+    font-size: 170%;
+    font-weight: bold;
+}
+
+.items-inside{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Situação do pagamento: em aberto ou realizado*/
+
+.sit{
+    text-align: center;
+    font-size: 220%;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.l{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10rem 0.8rem 5rem 0.8rem;
+}
+
+.l2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20rem;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
