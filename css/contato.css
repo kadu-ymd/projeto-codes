@@ -1,9 +1,20 @@
-.foto{
-    justify-self: center;
+.foto {
+    justify-content: left;
     border-radius: 100%;
-    border-width: 0.1rem;
     border-color: black;
+    border-width: 1rem;
     background-color: blue;
-    width: 4rem;
-    height: 4rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+.black_outline_box {
+    border: 2px solid black;
+    border-radius: 0.25rem;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+}
+
+h2{
+    font-weight: 700;
 }
