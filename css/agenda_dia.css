@@ -1,25 +1,25 @@
-.black_stroke_box{
+.black_stroke_box {
     border: 2px solid black;
     border-radius: 0.5rem;
-    margin: 2rem;
+    margin: 10rem 0.8rem 5rem 0.8rem;
 }
 
-.black_stroke_box>.coluna>.linha>p{
+.black_stroke_box > .coluna > .linha > p {
     margin: 0.5rem;
 }
 
-linha>p{
-    
-}
-
-.dia{
+.dia {
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-bottom: 2px solid black;
 }
 
-.icon2{
-    height: 1.5rem;
-    padding: 0.5rem 0rem;
+.dia > p {
+    font-size: 1.5rem;
+}
+
+.horario-box {
+    justify-content: space-between;
+    padding: 0rem 0.2rem;
 }

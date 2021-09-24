@@ -1,0 +1,52 @@
+.outside-box {
+    border: 1px solid black;
+    margin: 10rem 0.8rem 5rem 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.inside-box-top {
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.inside-box-top > p {
+    font-size: 1.5rem;
+}
+
+.inside-box-bottom {
+    padding: 1rem 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 12.998%;
+    height: 1.6rem;
+}
+
+.dias-da-semana {
+    font-weight: bold;
+}
+
+.dias-do-mes > li:hover {
+    background-color: aliceblue;
+    border-radius: 30%;
+}
