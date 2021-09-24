@@ -1,10 +1,8 @@
 .foto {
     border-radius: 100%;
     border-width: 10rem;
-    background-color: blue;
     border-color: brown;
     width: 8rem;
-    height: 8rem;
 }
 
 .black_outline_box {
