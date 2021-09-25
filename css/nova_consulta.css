@@ -1,0 +1,38 @@
+.c{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 10rem 0.8rem 5rem 0.8rem;
+
+}
+
+.p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.i{
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.i_pc{
+    width: 20rem;
+}
+
+.i_data{
+    width: 5rem;
+}
+
+.box{
+    width: fit-content;
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+button{
+    font-size: 2rem;
+    width: 20rem;
+}
