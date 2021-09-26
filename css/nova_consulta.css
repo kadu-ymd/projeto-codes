@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     margin: 10rem 0.8rem 5rem 0.8rem;
 
@@ -26,10 +26,14 @@
 }
 
 .box{
-    width: fit-content;
+    justify-content: center;
     border: 1px solid black;
     padding: 2rem;
     border-radius: 0.5rem;
+    width: 32rem;
+}
+.cbox{
+    justify-items: right;
 }
 
 button{
