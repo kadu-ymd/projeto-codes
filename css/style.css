@@ -2,6 +2,7 @@
 
 html{
     font-family: 'Open Sans', 'Lato';
+    background-color: #F5B18F;
 }
 
 main {
@@ -55,6 +56,7 @@ h1 {
 .icon_top{
     justify-content: space-between;
 }
+
 .icon_outline{
     border: 4px solid black;
     border-radius: 100%;
