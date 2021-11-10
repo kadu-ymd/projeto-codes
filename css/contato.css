@@ -1,12 +1,18 @@
+main {
+    padding: 0% 16%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
 .foto {
     border-radius: 100%;
     border-width: 10rem;
-    border-color: brown;
     width: 8rem;
 }
 
 .black_outline_box {
-    border: 2px solid black;
+    border: 2px solid #3C3F44;
     border-radius: 0.25rem;
     margin: 1rem 0rem 1rem 0rem;
     padding: 0.5rem;
@@ -14,4 +20,41 @@
 
 h2{
     font-weight: 900;
+}
+
+.icon_outline{
+    border: 4px solid #3C3F44;
+    border-radius: 100%;
+    margin: 2rem;
+}
+
+.separador_v{
+    display: flex;
+    flex-direction: column;
+    background-color: #3C3F44;
+    height: 100%;
+    width: 0.1rem;
+    margin: 0.5rem 0rem;
+}
+
+.separador_h{
+    display: flex;
+    flex-direction: row;
+    background-color: #3C3F44;
+    height: 0.1rem;
+    width: 100%;
+    margin: 0.5rem 0 ;
+}
+
+.coluna {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

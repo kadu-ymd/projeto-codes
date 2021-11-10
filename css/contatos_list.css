@@ -28,13 +28,12 @@
 
 .middle-box-1 > a,
 .middle-box-2 > a {
-    border: 3px solid black;
+    border: 2px solid #3C3F44;
     width: 7rem;
     height: 7rem;
     margin: 0 1rem;
     position: relative;
     text-decoration: none;
-    color: black;
     padding: 0.5rem;
 }
 

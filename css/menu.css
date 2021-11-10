@@ -12,6 +12,8 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #3C3F44;
 }
 
 button:hover {
@@ -20,7 +22,9 @@ button:hover {
 
 button > p {
     font-size: 1rem;
-    color: #A86E51;
+    color: #3C3F44;
+    padding-right: 0.8rem;
+    font-weight: bold;
 }
 
 h1 {
@@ -28,14 +32,12 @@ h1 {
     margin-bottom: 5rem;
 }
 
-button > p {
-    padding-right: 0.8rem;
-}
-
 .icon {
     padding-left: 0.5rem;
 }
 
+
 .coluna {
     margin-top: 10rem;
+    color: #3C3F44;
 }

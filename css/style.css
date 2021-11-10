@@ -2,41 +2,36 @@
 
 html{
     font-family: 'Open Sans', 'Lato';
-    background-color: #F5B18F;
-}
-
-main {
-    padding: 0% 16%;
-    display: flex;
-    flex-direction: column;
+    background-color: #D2E3FC;
+    width: 100%;
+    color: #3C3F44;
 }
 
 h1 {
     z-index: -1;
     text-align: center;
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     position: absolute;
     top: 3rem;
     width: 100%;
 }
 
 .coluna {
-    margin: 1rem;
     display: flex;
     flex-direction: column;
 }
 
 .linha {
-    margin: 1rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 }
 
 .icon {
     height: 4rem;
     width: 4rem;
+    /* Mudando cor dos ícones https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(24%) sepia(10%) saturate(360%) hue-rotate(179deg) brightness(92%) contrast(94%);
 }
 
 .icon_left {
@@ -51,32 +46,4 @@ h1 {
     right: 0px;
     top: 0px;
     margin: 2rem;
-}
-
-.icon_top{
-    justify-content: space-between;
-}
-
-.icon_outline{
-    border: 4px solid black;
-    border-radius: 100%;
-    margin: 2rem;
-}
-
-.separador_v{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(0, 0, 0);
-    height: 100%;
-    width: 0.1rem;
-    margin: 0.5rem 0rem;
-}
-
-.separador_h{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(0, 0, 0);
-    height: 0.1rem;
-    width: 100%;
-    margin: 0.5rem 0 ;
 }

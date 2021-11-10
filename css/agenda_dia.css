@@ -1,17 +1,19 @@
 .black_stroke_box {
     border: 2px solid black;
     border-radius: 0.5rem;
-    margin: 2rem 0.8rem 2rem 0.8rem;
+    margin: 8rem 1.5rem auto 1.5rem;
 }
 
-.black_stroke_box > .coluna > .linha > p {
-    margin: 0.5rem;
+.black_stroke_box > .coluna > .horario-box > p {
+    font-size: 1.2rem;
 }
 
 .dia {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 1rem;
+    border-bottom: 2px solid black;
 }
 
 .dia > p {
@@ -19,6 +21,19 @@
 }
 
 .horario-box {
-    justify-content: center;
-    padding: 0rem 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+}
+
+.coluna {
+    margin: .2rem 0;
+}
+
+.plus {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2em;
 }
