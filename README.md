@@ -1,1 +1,1 @@
-# Projeto de Co-Design de Aplicativos teste
+# Projeto de Co-Design de Aplicativos
